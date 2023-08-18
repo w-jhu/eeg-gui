@@ -1,2 +1,2 @@
 # eeg-gui
-Simplistic GUI design for annotating EEG data for seizure detection
+Streamlined GUI design for annotating EEG data for seizure detection
