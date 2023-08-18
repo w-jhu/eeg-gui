@@ -1,12 +1,13 @@
 # Usage
 Streaming from IEEG:
 <pre>
-python eeg_gui.py -u your_username -p your_password data_info.csv
+python eeg_gui.py -u your_username -p your_password data_info.csv --delay
 </pre>
 Directly from local folder containing EDF files:
 <pre>
-python eeg_gui.py folder_name
+python eeg_gui.py folder_name --delay
 </pre>
+(delay defaults to 0.5)
 # Results Interpretation
 | Column Name        | Value | Meaning                   |
 |--------------------|-------|---------------------------|
